@@ -21,6 +21,7 @@ public:
     int MAP_BOUNDARY = 1000;
 
     algorithm();
+    void shuffle_cities(tour& t);
 };
 
 
