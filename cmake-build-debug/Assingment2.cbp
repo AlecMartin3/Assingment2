@@ -80,7 +80,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/Alec/CLionProjects/Assingment2/algorithm.cpp">
+			<Option target="Assingment2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Alec/CLionProjects/Assingment2/algorithm.hpp">
+			<Option target="Assingment2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Alec/CLionProjects/Assingment2/city.cpp">
+			<Option target="Assingment2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Alec/CLionProjects/Assingment2/city.hpp">
+			<Option target="Assingment2"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Alec/CLionProjects/Assingment2/main.cpp">
+			<Option target="Assingment2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Alec/CLionProjects/Assingment2/tour.cpp">
+			<Option target="Assingment2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Alec/CLionProjects/Assingment2/tour.hpp">
 			<Option target="Assingment2"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Alec/CLionProjects/Assingment2/CMakeLists.txt">

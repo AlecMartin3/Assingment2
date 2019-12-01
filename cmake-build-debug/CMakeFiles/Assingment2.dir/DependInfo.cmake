@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/cygdrive/c/Users/Alec/CLionProjects/Assingment2/algorithm.cpp" "/cygdrive/c/Users/Alec/CLionProjects/Assingment2/cmake-build-debug/CMakeFiles/Assingment2.dir/algorithm.cpp.o"
+  "/cygdrive/c/Users/Alec/CLionProjects/Assingment2/city.cpp" "/cygdrive/c/Users/Alec/CLionProjects/Assingment2/cmake-build-debug/CMakeFiles/Assingment2.dir/city.cpp.o"
   "/cygdrive/c/Users/Alec/CLionProjects/Assingment2/main.cpp" "/cygdrive/c/Users/Alec/CLionProjects/Assingment2/cmake-build-debug/CMakeFiles/Assingment2.dir/main.cpp.o"
+  "/cygdrive/c/Users/Alec/CLionProjects/Assingment2/tour.cpp" "/cygdrive/c/Users/Alec/CLionProjects/Assingment2/cmake-build-debug/CMakeFiles/Assingment2.dir/tour.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -123,6 +123,60 @@ Assingment2/fast:
 	$(MAKE) -f CMakeFiles/Assingment2.dir/build.make CMakeFiles/Assingment2.dir/build
 .PHONY : Assingment2/fast
 
+algorithm.o: algorithm.cpp.o
+
+.PHONY : algorithm.o
+
+# target to build an object file
+algorithm.cpp.o:
+	$(MAKE) -f CMakeFiles/Assingment2.dir/build.make CMakeFiles/Assingment2.dir/algorithm.cpp.o
+.PHONY : algorithm.cpp.o
+
+algorithm.i: algorithm.cpp.i
+
+.PHONY : algorithm.i
+
+# target to preprocess a source file
+algorithm.cpp.i:
+	$(MAKE) -f CMakeFiles/Assingment2.dir/build.make CMakeFiles/Assingment2.dir/algorithm.cpp.i
+.PHONY : algorithm.cpp.i
+
+algorithm.s: algorithm.cpp.s
+
+.PHONY : algorithm.s
+
+# target to generate assembly for a file
+algorithm.cpp.s:
+	$(MAKE) -f CMakeFiles/Assingment2.dir/build.make CMakeFiles/Assingment2.dir/algorithm.cpp.s
+.PHONY : algorithm.cpp.s
+
+city.o: city.cpp.o
+
+.PHONY : city.o
+
+# target to build an object file
+city.cpp.o:
+	$(MAKE) -f CMakeFiles/Assingment2.dir/build.make CMakeFiles/Assingment2.dir/city.cpp.o
+.PHONY : city.cpp.o
+
+city.i: city.cpp.i
+
+.PHONY : city.i
+
+# target to preprocess a source file
+city.cpp.i:
+	$(MAKE) -f CMakeFiles/Assingment2.dir/build.make CMakeFiles/Assingment2.dir/city.cpp.i
+.PHONY : city.cpp.i
+
+city.s: city.cpp.s
+
+.PHONY : city.s
+
+# target to generate assembly for a file
+city.cpp.s:
+	$(MAKE) -f CMakeFiles/Assingment2.dir/build.make CMakeFiles/Assingment2.dir/city.cpp.s
+.PHONY : city.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +204,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Assingment2.dir/build.make CMakeFiles/Assingment2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+tour.o: tour.cpp.o
+
+.PHONY : tour.o
+
+# target to build an object file
+tour.cpp.o:
+	$(MAKE) -f CMakeFiles/Assingment2.dir/build.make CMakeFiles/Assingment2.dir/tour.cpp.o
+.PHONY : tour.cpp.o
+
+tour.i: tour.cpp.i
+
+.PHONY : tour.i
+
+# target to preprocess a source file
+tour.cpp.i:
+	$(MAKE) -f CMakeFiles/Assingment2.dir/build.make CMakeFiles/Assingment2.dir/tour.cpp.i
+.PHONY : tour.cpp.i
+
+tour.s: tour.cpp.s
+
+.PHONY : tour.s
+
+# target to generate assembly for a file
+tour.cpp.s:
+	$(MAKE) -f CMakeFiles/Assingment2.dir/build.make CMakeFiles/Assingment2.dir/tour.cpp.s
+.PHONY : tour.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Assingment2"
 	@echo "... edit_cache"
+	@echo "... algorithm.o"
+	@echo "... algorithm.i"
+	@echo "... algorithm.s"
+	@echo "... city.o"
+	@echo "... city.i"
+	@echo "... city.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tour.o"
+	@echo "... tour.i"
+	@echo "... tour.s"
 .PHONY : help
 
 

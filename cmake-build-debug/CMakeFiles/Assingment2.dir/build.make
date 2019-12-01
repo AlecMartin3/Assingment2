@@ -70,17 +70,62 @@ CMakeFiles/Assingment2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assingment2.dir/main.cpp.s"
 	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Alec/CLionProjects/Assingment2/main.cpp -o CMakeFiles/Assingment2.dir/main.cpp.s
 
+CMakeFiles/Assingment2.dir/city.cpp.o: CMakeFiles/Assingment2.dir/flags.make
+CMakeFiles/Assingment2.dir/city.cpp.o: ../city.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Alec/CLionProjects/Assingment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Assingment2.dir/city.cpp.o"
+	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assingment2.dir/city.cpp.o -c /cygdrive/c/Users/Alec/CLionProjects/Assingment2/city.cpp
+
+CMakeFiles/Assingment2.dir/city.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assingment2.dir/city.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Alec/CLionProjects/Assingment2/city.cpp > CMakeFiles/Assingment2.dir/city.cpp.i
+
+CMakeFiles/Assingment2.dir/city.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assingment2.dir/city.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Alec/CLionProjects/Assingment2/city.cpp -o CMakeFiles/Assingment2.dir/city.cpp.s
+
+CMakeFiles/Assingment2.dir/tour.cpp.o: CMakeFiles/Assingment2.dir/flags.make
+CMakeFiles/Assingment2.dir/tour.cpp.o: ../tour.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Alec/CLionProjects/Assingment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Assingment2.dir/tour.cpp.o"
+	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assingment2.dir/tour.cpp.o -c /cygdrive/c/Users/Alec/CLionProjects/Assingment2/tour.cpp
+
+CMakeFiles/Assingment2.dir/tour.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assingment2.dir/tour.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Alec/CLionProjects/Assingment2/tour.cpp > CMakeFiles/Assingment2.dir/tour.cpp.i
+
+CMakeFiles/Assingment2.dir/tour.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assingment2.dir/tour.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Alec/CLionProjects/Assingment2/tour.cpp -o CMakeFiles/Assingment2.dir/tour.cpp.s
+
+CMakeFiles/Assingment2.dir/algorithm.cpp.o: CMakeFiles/Assingment2.dir/flags.make
+CMakeFiles/Assingment2.dir/algorithm.cpp.o: ../algorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Alec/CLionProjects/Assingment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Assingment2.dir/algorithm.cpp.o"
+	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assingment2.dir/algorithm.cpp.o -c /cygdrive/c/Users/Alec/CLionProjects/Assingment2/algorithm.cpp
+
+CMakeFiles/Assingment2.dir/algorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assingment2.dir/algorithm.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Alec/CLionProjects/Assingment2/algorithm.cpp > CMakeFiles/Assingment2.dir/algorithm.cpp.i
+
+CMakeFiles/Assingment2.dir/algorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assingment2.dir/algorithm.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Alec/CLionProjects/Assingment2/algorithm.cpp -o CMakeFiles/Assingment2.dir/algorithm.cpp.s
+
 # Object files for target Assingment2
 Assingment2_OBJECTS = \
-"CMakeFiles/Assingment2.dir/main.cpp.o"
+"CMakeFiles/Assingment2.dir/main.cpp.o" \
+"CMakeFiles/Assingment2.dir/city.cpp.o" \
+"CMakeFiles/Assingment2.dir/tour.cpp.o" \
+"CMakeFiles/Assingment2.dir/algorithm.cpp.o"
 
 # External object files for target Assingment2
 Assingment2_EXTERNAL_OBJECTS =
 
 Assingment2.exe: CMakeFiles/Assingment2.dir/main.cpp.o
+Assingment2.exe: CMakeFiles/Assingment2.dir/city.cpp.o
+Assingment2.exe: CMakeFiles/Assingment2.dir/tour.cpp.o
+Assingment2.exe: CMakeFiles/Assingment2.dir/algorithm.cpp.o
 Assingment2.exe: CMakeFiles/Assingment2.dir/build.make
 Assingment2.exe: CMakeFiles/Assingment2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Alec/CLionProjects/Assingment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Assingment2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Alec/CLionProjects/Assingment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Assingment2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Assingment2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Alec/CLionProjects/Assingment2/algorithm.cpp
+algorithm.hpp
+/cygdrive/c/Users/Alec/CLionProjects/Assingment2/algorithm.hpp
+
+/cygdrive/c/Users/Alec/CLionProjects/Assingment2/algorithm.hpp
+
+/cygdrive/c/Users/Alec/CLionProjects/Assingment2/city.cpp
+city.hpp
+/cygdrive/c/Users/Alec/CLionProjects/Assingment2/city.hpp
+
+/cygdrive/c/Users/Alec/CLionProjects/Assingment2/city.hpp
+
+/cygdrive/c/Users/Alec/CLionProjects/Assingment2/main.cpp
+iostream
+-
+
+/cygdrive/c/Users/Alec/CLionProjects/Assingment2/tour.cpp
+tour.hpp
+/cygdrive/c/Users/Alec/CLionProjects/Assingment2/tour.hpp
+
+/cygdrive/c/Users/Alec/CLionProjects/Assingment2/tour.hpp
+vector
+-
+city.hpp
+/cygdrive/c/Users/Alec/CLionProjects/Assingment2/city.hpp
+
