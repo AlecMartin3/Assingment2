@@ -3,11 +3,16 @@
 
 CMakeFiles/Assingment2.dir/algorithm.cpp.o: ../algorithm.cpp
 CMakeFiles/Assingment2.dir/algorithm.cpp.o: ../algorithm.hpp
+CMakeFiles/Assingment2.dir/algorithm.cpp.o: ../city.hpp
+CMakeFiles/Assingment2.dir/algorithm.cpp.o: ../tour.hpp
 
 CMakeFiles/Assingment2.dir/city.cpp.o: ../city.cpp
 CMakeFiles/Assingment2.dir/city.cpp.o: ../city.hpp
 
+CMakeFiles/Assingment2.dir/main.cpp.o: ../algorithm.hpp
+CMakeFiles/Assingment2.dir/main.cpp.o: ../city.hpp
 CMakeFiles/Assingment2.dir/main.cpp.o: ../main.cpp
+CMakeFiles/Assingment2.dir/main.cpp.o: ../tour.hpp
 
 CMakeFiles/Assingment2.dir/tour.cpp.o: ../city.hpp
 CMakeFiles/Assingment2.dir/tour.cpp.o: ../tour.cpp

@@ -10,9 +10,9 @@ class city {
 public:
     int x;
     int y;
-    char name;
+    int name;
 
-    city(char name, int x, int y);
+    city(int name, int x, int y);
 };
 
 
