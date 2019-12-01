@@ -1,0 +1,3 @@
+/cygdrive/c/Users/Alec/CLionProjects/Assingment2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/Alec/CLionProjects/Assingment2/cmake-build-debug/CMakeFiles/Assingment2.dir
+/cygdrive/c/Users/Alec/CLionProjects/Assingment2/cmake-build-debug/CMakeFiles/edit_cache.dir
