@@ -80,28 +80,9 @@ algorithm::algorithm() {
             cout << endl;
         }
     }
-    cout << "==========================================================================================" << endl;
-    cout << "Total number of iterations: " << iteration << endl;
-    cout << "Base distance: " << base << endl;
-    cout << "Final distance: " << best << endl;
-    cout << "Base route: ";
-    for(auto c : temp_tour.cities){
-        cout << c.name << " ";
-    }
-    cout << endl;
-    cout << "Optimal route: ";
-    for (auto c : population[best_tour_index].cities) {
-        cout << c.name << " ";
-    }
-    cout << endl;
-//    cout << best/base << endl;
-    if( best / base < IMPROVEMENT_FACTOR){
-        cout<< "Can no longer be improved easily (IMPROVEMENT_FACTOR)" <<endl;
-    }
-    else{
-        cout<< "Can still be improved easily (IMPROVEMENT_FACTOR)" <<endl;
-    }
+    print_report(iteration, base, best, temp_tour, population, best_tour_index);
 }
+
 /**
  * Shuffles all the cities in a tour with each other making them have a random order
  * @param t
@@ -243,6 +224,29 @@ vector<tour> algorithm::select_parents(vector<tour> &p) {
         parents[i] = parent_pool[p_index];
     }
     return parents;
+}
+
+void algorithm:: print_report(int iteration, double base, double best, tour base_tour, vector<tour> population, int best_tour_index){
+    cout << "==========================================================================================" << endl;
+    cout << "Total number of iterations: " << iteration << endl;
+    cout << "Base distance: " << base << endl;
+    cout << "Final distance: " << best << endl;
+    cout << "Base route: ";
+    for(auto c : base_tour.cities){
+        cout << c.name << " ";
+    }
+    cout << endl;
+    cout << "Optimal route: ";
+    for (auto c : population[best_tour_index].cities) {
+        cout << c.name << " ";
+    }
+    cout << endl;
+    if( best / base < IMPROVEMENT_FACTOR){
+        cout<< "Can no longer be improved easily (IMPROVEMENT_FACTOR)" <<endl;
+    }
+    else{
+        cout<< "Can still be improved easily (IMPROVEMENT_FACTOR)" <<endl;
+    }
 }
 
 

@@ -38,6 +38,7 @@ public:
     tour crossover(vector<tour> &parents);
     bool contains_city(tour &candidate_tour, int length, city &candidate_city);
     vector<tour> select_parents(vector<tour> &p);
+    void print_report(int iteration, double base, double best, tour base_tour, vector<tour> population, int best_tour_index);
 };
 
 
