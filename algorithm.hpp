@@ -19,9 +19,16 @@ public:
     int CITIES_IN_TOUR = 32;
     unsigned long POPULATION_SIZE = 32;
     int MAP_BOUNDARY = 1000;
+    int NUMBER_OF_ELITES = 1;
+    double MUTATION_RATE = 0.01;
 
     algorithm();
     void shuffle_cities(tour& t);
+    int  find_best_fitness_in_pop(vector<tour> &p, int size);
+    double get_tour_distance(tour&t);
+    double get_distance_between_cities(city first, city second);
+    void mutate(tour &t, double rate);
+    void swap_cities(int first, int second, vector<city> &cities);
 };
 
 
