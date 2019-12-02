@@ -13,7 +13,9 @@
 #include <algorithm>
 #include <iterator>
 using namespace std;
-
+/**
+ * algorithm class that uses the GeneticAlgorithm to find a better solution to the travelling salesman problem
+ */
 class algorithm {
 public:
     int CITIES_IN_TOUR = 32;
@@ -21,6 +23,10 @@ public:
     int MAP_BOUNDARY = 1000;
     int NUMBER_OF_ELITES = 1;
     double MUTATION_RATE = 0.01;
+    unsigned long PARENT_POOL_SIZE = 5;
+    unsigned long NUMBER_OF_PARENTS = 5;
+    double IMPROVEMENT_FACTOR = 0.999;
+    int ITERATIONS = 1000;
 
     algorithm();
     void shuffle_cities(tour& t);
@@ -29,6 +35,9 @@ public:
     double get_distance_between_cities(city first, city second);
     void mutate(tour &t, double rate);
     void swap_cities(int first, int second, vector<city> &cities);
+    tour crossover(vector<tour> &parents);
+    bool contains_city(tour &candidate_tour, int length, city &candidate_city);
+    vector<tour> select_parents(vector<tour> &p);
 };
 
 

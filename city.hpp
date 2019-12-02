@@ -5,7 +5,9 @@
 #ifndef ASSINGMENT2_CITY_HPP
 #define ASSINGMENT2_CITY_HPP
 
-
+/**
+ * Is a single city that has a name, longitude, and latitude
+ */
 class city {
 public:
     int x;
